@@ -6,8 +6,8 @@ import os
 import re
 import threading, time
  
-#globals
-testruns = 2
+#global
+testruns = 5
 
 cmd = ['sigrok-cli',
            '-d','fx2lafw',
