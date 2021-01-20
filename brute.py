@@ -116,3 +116,5 @@ for i in range(len(pin)):
     test = happylittlenumbers[index]
     post = pin[i+1:]
     pin = pre + test + post
+
+print('Secret: {}'.format(pin))
