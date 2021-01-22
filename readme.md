@@ -26,4 +26,7 @@ Libraries and features:
   Usage: 
   - connect logic analyser and arduino with flashed pin_entry.hex to your linux desktop
   - run ```python3 brute.py```
+
+  - ps: if the script has problems finding the logic analyser, or if the device is already in use
+        it will gracefully end with a divide by zero exception.
          
